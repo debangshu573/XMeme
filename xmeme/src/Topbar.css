@@ -1,0 +1,39 @@
+.topbar{
+    background-color:rgb(71, 6, 6);
+}
+
+form > div > .MuiSvgIcon-root {
+    padding: 5px;
+    color :rgb(221, 158, 42);
+}
+
+.inputs{
+    /* flex: 1; */
+    margin: auto;
+    font-size: 15px;
+    border: none;
+    padding: 12px;
+    display: flex;
+    border-radius: 20px;
+    background-color:bisque;
+    width: 300px;
+}
+
+.memeCaption{
+    /* display:flex; */
+    padding-bottom: 20px;
+}
+
+.memeSubmit{
+    background-color: rgb(109, 164, 201);
+    border: none !important;
+    color: rgb(12, 0, 8) !important;
+    font-weight: 800 !important;
+    border-radius: 40px !important;
+    width: 180px;
+    height: 40px !important;
+    margin-left: auto !important;
+    border:none;
+    font-family: 'Segoe UI';
+    margin-bottom: 20px; 
+}

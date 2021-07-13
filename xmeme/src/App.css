@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background-color: rgb(6, 9, 12) ;
+  overflow-y: scroll;
+    min-width: fit-content;
+}
+/* body{
+    overflow-y: scroll;
+    min-width: fit-content;
+} */
+body::-webkit-scrollbar {
+    display: none;
+}
+.appHeader{
+    display:flex;
+    background-color: rgb(10, 0, 0);
+    height: 80px;
+}
+
+.appHeader > img{
+    border-radius: 100px;
+}
+
+.appHeader > h1{
+    color:rgb(62, 216, 243);
+    font-weight: 1000;
+    font-size: 35px;
+    padding-left:10px;
+    padding-bottom: 20px;
+}
